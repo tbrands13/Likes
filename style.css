@@ -1,0 +1,98 @@
+* {
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+/*START NAV*/
+.network {
+    height: 55px;
+    background-color: black;
+    color: white;
+}
+.feed {
+    height: 55px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*END NAV*/
+/* START PAGE */
+.page {
+    display: flex;
+    /* background-color: cadetblue; */
+    gap: 1.5%
+}
+section {
+    height: 275px;
+    width: 25%;
+    border: 2px solid black;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+section p {
+    color: blue;
+    text-decoration: underline;
+}
+.updates {
+    /* background-color: chocolate; */
+    height: 700px;
+    width: 50%;
+}
+/* END PAGE */
+/*START UPDATE CARDS*/
+.userCard {
+    border: 2px solid black;
+    height: 175px;
+    width: 375px;
+    margin-bottom: 15px;
+    /*padding: 1%;*/
+}
+span {
+    color: blue;
+    text-decoration:underline;
+}
+.topCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    /*background-color: blanchedalmond;*/
+}
+
+.user {
+    /*background-color: powderblue;*/
+    width: 187px;
+    padding-left: 3%;
+}
+
+.likes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*background-color: pink;*/
+    width: 187px;
+}
+
+.likeButton {
+    background-color: rgb(231, 168, 8);
+    box-shadow: 3px 3px black;
+    height: 30px;
+    width: 50px;
+}
+
+.bottomCard {
+    /*background-color: salmon;*/
+    height: 80px;
+    padding-left: 3%;
+}
+/*END UPDATE CARDS*/

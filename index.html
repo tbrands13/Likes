@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="network">
+            <h1>Network</h1>
+        </div>
+        <div class="feed">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="page">
+            <section>
+                <img src="user-circle.png" alt="User Icon" height="60" width="60">
+                <p>Add an avatar</p>
+                <h2>Titus Brandy</h2>
+            </section>
+            <div class="updates">
+                <div class="userCard">
+                    <div class="topCard">
+                        <div class="user">
+                            <h2>Neil M</h2>
+                        </div>
+                        <div class="likes">
+                            <p id="neilLikes"></p>
+                            <button onclick="oneUp(neilLikes)" class="likeButton" type="button">Like</button>
+                        </div>
+                    </div>
+                    <div class="bottomCard">
+                        <p>I just set up this new discord bot, let me know what you all think. <span>link</span><p>
+                    </div>
+                </div>
+                <div class="userCard">
+                    <div class="topCard">
+                        <div class="user">
+                            <h2>Nichole K</h2>
+                        </div>
+                        <div class="likes">
+                            <p id="nicholeLikes"></p>
+                            <button onclick="oneUp(nicholeLikes)" class="likeButton" type="button">Like</button>
+                        </div>
+                    </div>
+                    <div class="bottomCard">
+                        <p>Just finished my <span>next comic</span>, check it out.</p>
+                    </div>
+                </div>
+                <div class="userCard">
+                    <div class="topCard">
+                        <div class="user">
+                            <h2>Jim R</h2>
+                        </div>
+                        <div class="likes">
+                            <p id="jimLikes"></p>
+                            <button onclick="oneUp(jimLikes)" class="likeButton" type="button">Like</button>
+                        </div>
+                    </div>
+                    <div class="bottomCard">
+                        <p>I can't stop listening to the <span>new album</span>. Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
